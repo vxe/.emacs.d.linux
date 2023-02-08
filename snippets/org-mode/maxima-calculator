@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: maxima-calculator
+# key: <max
+# --
+ #+name: $1
+ #+header: :exports results
+ #+begin_src maxima
+   programmode: false;
+   print($0);
+ #+end_src

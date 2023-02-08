@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# name: sos-pod-sitrep
+# key: sospodsitrep
+# --
+
+#+begin_src sh
+export KUBECONFIG=/Users/vedwin/wrk/lab/fml/.kube/config.d/edge-prod-${1}.yaml
+export AWS_CONFIG_FILE="~/.aws/config"
+export AWS_PROFILE='edge-prod-parsec-sysadmin'
+
+#+end_src
+
+
+#+begin_src sh
+kubectl get events -n prod -o wide
+#+end_src
+
+
+#+begin_src sh
+kubectl get pods -n prod -o wide | grep -iv running
+#+end_src
+

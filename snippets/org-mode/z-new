@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: z-new
+# key: <znew
+# --
+$1
+** References

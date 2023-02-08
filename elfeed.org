@@ -1,0 +1,15 @@
+* Feeds                                                              :elfeed:
+** Emacs                                                     :emacs:mustread:
+*** http://www.terminally-incoherent.com/blog/feed
+*** http://nullprogram.com/feed
+*** entry-title: \(emacs\|org-mode\)
+*** http://planet.emacsen.org/atom.xml
+*** [[toobnix:154][EmacsConf]]
+** Reddit                                                            :reddit:
+*** [[https://www.reddit.com/r/lisp.rss][r/lisp]]
+*** [[https://www.reddit.com/r/emacs.rss][r/emacs]]                                                           :emacs:
+** Software
+*** https://news.ycombinator.com/rss                               :mustread:
+** AI/ML
+
+
